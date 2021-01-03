@@ -3,108 +3,108 @@
         "Colocacao": "1",
         "Jogador": "Ryan",
         "Pontuacao": "24",
-        "N de queimadas": "51",
-        "Finais Jogadas": "34",
-        "N de Primeiro da Roda": "3",
-        "Partidas Jogadas": "70"
+        "queimadas": "51",
+        "finais": "34",
+        "primeiro": "3",
+        "partidas": "70"
     },
     {
         "Colocacao": "2",
         "Jogador": "Maurício",
         "Pontuacao": "22",
-        "N de queimadas": "64",
-        "Finais Jogadas": "29",
-        "N de Primeiro da Roda": "6",
-        "Partidas Jogadas": "68"
+        "queimadas": "64",
+        "finais": "29",
+        "primeiro": "6",
+        "partidas": "68"
     },
     {
         "Colocacao": "3",
         "Jogador": "Henrique",
         "Pontuacao": "21",
-        "N de queimadas": "61",
-        "Finais Jogadas": "29",
-        "N de Primeiro da Roda": "4",
-        "Partidas Jogadas": "72"
+        "queimadas": "61",
+        "finais": "29",
+        "primeiro": "4",
+        "partidas": "72"
     },
     {
         "Colocacao": "4",
         "Jogador": "Nathan",
         "Pontuacao": "19",
-        "N de queimadas": "91",
-        "Finais Jogadas": "25",
-        "N de Primeiro da Roda": "9",
-        "Partidas Jogadas": "68"
+        "queimadas": "91",
+        "finais": "25",
+        "primeiro": "9",
+        "partidas": "68"
     },
     {
         "Colocacao": "5",
         "Jogador": "Raphael",
         "Pontuacao": "17",
-        "N de queimadas": "43",
-        "Finais Jogadas": "25",
-        "N de Primeiro da Roda": "5",
-        "Partidas Jogadas": "73"
+        "queimadas": "43",
+        "finais": "25",
+        "primeiro": "5",
+        "partidas": "73"
     },
     {
         "Colocacao": "6",
         "Jogador": "Jonas",
         "Pontuacao": "12",
-        "N de queimadas": "43",
-        "Finais Jogadas": "17",
-        "N de Primeiro da Roda": "14",
-        "Partidas Jogadas": "63"
+        "queimadas": "43",
+        "finais": "17",
+        "primeiro": "14",
+        "partidas": "63"
     },
     {
         "Colocacao": "7",
         "Jogador": "João",
         "Pontuacao": "12",
-        "N de queimadas": "37",
-        "Finais Jogadas": "23",
-        "N de Primeiro da Roda": "15",
-        "Partidas Jogadas": "76"
+        "queimadas": "37",
+        "finais": "23",
+        "primeiro": "15",
+        "partidas": "76"
     },
     {
         "Colocacao": "8",
         "Jogador": "Josias",
         "Pontuacao": "9",
-        "N de queimadas": "23",
-        "Finais Jogadas": "12",
-        "N de Primeiro da Roda": "2",
-        "Partidas Jogadas": "37"
+        "queimadas": "23",
+        "finais": "12",
+        "primeiro": "2",
+        "partidas": "37"
     },
     {
         "Colocacao": "9",
         "Jogador": "Luiz",
         "Pontuacao": "5",
-        "N de queimadas": "42",
-        "Finais Jogadas": "9",
-        "N de Primeiro da Roda": "5",
-        "Partidas Jogadas": "52"
+        "queimadas": "42",
+        "finais": "9",
+        "primeiro": "5",
+        "partidas": "52"
     },
     {
         "Colocacao": "10",
         "Jogador": "Marçal",
         "Pontuacao": "5",
-        "N de queimadas": "27",
-        "Finais Jogadas": "10",
-        "N de Primeiro da Roda": "7",
-        "Partidas Jogadas": "40"
+        "queimadas": "27",
+        "finais": "10",
+        "primeiro": "7",
+        "partidas": "40"
     },
     {
         "Colocacao": "11",
         "Jogador": "Gian",
         "Pontuacao": "3",
-        "N de queimadas": "6",
-        "Finais Jogadas": "5",
-        "N de Primeiro da Roda": "2",
-        "Partidas Jogadas": "16"
+        "queimadas": "6",
+        "finais": "5",
+        "primeiro": "2",
+        "partidas": "16"
     },
     {
         "Colocacao": "12",
         "Jogador": "Ysmaili",
         "Pontuacao": "1",
-        "N de queimadas": "16",
-        "Finais Jogadas": "3",
-        "N de Primeiro da Roda": "4",
-        "Partidas Jogadas": "25"
+        "queimadas": "16",
+        "finais": "3",
+        "primeiro": "4",
+        "partidas": "25"
     }
 ]

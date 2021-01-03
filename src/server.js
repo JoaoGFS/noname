@@ -22,15 +22,17 @@ app.post('/', (req, res) => {
         console.error(err)
     }
 
-    let sopm = "ninguém"
+    let nome = "ninguém"
+    let kills = "0"
 
     players.forEach(element => {
         if (req.body.number == element.Colocacao) {
-            sopm = element.Jogador
+            nome = element.Jogador
+            kills = element.queimadas
         }
     });
 
-    return res.send(`O grande ${sopm}`);
+    return res.send(`O grande ${nome} que queimou ${kills} otários`);
 });
 
 app.put('/', (req, res) => {
