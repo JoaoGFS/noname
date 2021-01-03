@@ -10,14 +10,14 @@ app.use(express.urlencoded({ extended: true }));
 
 var corsOptions = {
     origin: 'http://localhost:4200',
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+    optionsSuccessStatus: 204 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
 app.get('/', (req, res) => {
     return res.send('Received a GET HTTP method');
 });
 
-app.post('/', cors(corsOptions), (req, res) => {
+app.post('/players', cors(corsOptions), (req, res) => {
     let players
 
     try {
