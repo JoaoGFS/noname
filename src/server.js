@@ -8,16 +8,11 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-var corsOptions = {
-    origin: 'http://localhost:4200',
-    optionsSuccessStatus: 204 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
-
 app.get('/', (req, res) => {
     return res.send('Received a GET HTTP method');
 });
 
-app.post('/players', cors(corsOptions), (req, res) => {
+app.post('/players', cors(), (req, res) => {
     let players
 
     try {
@@ -39,14 +34,6 @@ app.post('/players', cors(corsOptions), (req, res) => {
     });
 
     return res.send(`O grande ${nome} que queimou ${kills} otários`);
-});
-
-app.put('/', (req, res) => {
-    return res.send('Received a PUT HTTP method');
-});
-
-app.delete('/', (req, res) => {
-    return res.send('Received a DELETE HTTP method');
 });
 
 app.listen(4000, () =>
