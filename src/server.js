@@ -23,10 +23,10 @@ function myCors(req, res, nxt) {
 app.use(myCors)
 
 app.get('/', (req, res) => {
-    return res.send('Received a GET HTTP method');
+    return res.send("GET");
 });
 
-app.post('/players', (req, res) => {
+app.post('/table', (req, res) => {
     let players
 
     try {
@@ -37,17 +37,7 @@ app.post('/players', (req, res) => {
         console.error(err)
     }
 
-    let nome = "ninguém"
-    let kills = "0"
-
-    players.forEach(element => {
-        if (req.body.number == element.Colocacao) {
-            nome = element.Jogador
-            kills = element.queimadas
-        }
-    });
-
-    return res.send(`O grande ${nome} que queimou ${kills} otários`);
+    return res.send(players);
 });
 
 app.listen(4000, () =>
